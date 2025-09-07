@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.stock-env/
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# Secrets or config files
+config.toml
+secrets.toml
+.env
