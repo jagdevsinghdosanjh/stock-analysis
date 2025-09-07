@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load and clean data
-df = pd.read_csv("PLTR_stock_data.csv")
+df = pd.read_csv("data/PLTR_stock_data.csv")
 df.columns = df.columns.str.strip().str.lower()  # Clean column names
 
 # Display column names for debugging
